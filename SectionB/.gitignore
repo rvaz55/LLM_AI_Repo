@@ -1,0 +1,22 @@
+#Below are the files that will be ignored by Git
+.env
+
+./vs
+/.vs
+#Env file
+.env
+*/.env/*
+
+# MacOS Finder Settings
+	.DS_Store
+	
+# JupyterNotebooks
+	.ipynb_checkpoints
+	*/.ipynb_checkpoints/*
+	
+# IPython
+	profile_default/
+	ipython_config.py
+	
+# To remove previous ipynb_checkpoints type in command (below sans #):
+#   git rm -r .ipynb_checkpoints/
